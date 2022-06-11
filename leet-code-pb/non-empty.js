@@ -11,8 +11,8 @@ let nums = [4, 1, 2, 1, 2];
 function nonEmpty() {
   for (let i = 0; i <= nums.length; i++) {
     for (let j = 0; j <= nums.length; j++) {
-      if (num[i] !== num[j]) {
-        return num;
+      if (nums[i] !== nums[j]) {
+        return nums;
       }
     }
   }
